@@ -40,7 +40,7 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'no-return-await': 'off',
         'i18next/no-literal-string': ['error', { markupOnly: true }],
-        'max-length': ['error', { ignoreComments: true }],
+        // 'max-length': ['error', { ignoreComments: true, code: 100 }],
     },
     globals: {
         __IS_DEV__: true,
